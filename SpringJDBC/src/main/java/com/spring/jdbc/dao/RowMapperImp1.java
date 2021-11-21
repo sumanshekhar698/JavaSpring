@@ -7,10 +7,9 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.spring.jdbc.entities.Student;
 
-
-public class RowMapperImp1 implements RowMapper<Student>{
+public class RowMapperImp1 implements RowMapper<Student> {
 //<Object> by default
-	//this will be used by JAVA internally 
+	// this will be used by JAVA internally
 	public Student mapRow(ResultSet rs, int rowNum) throws SQLException {
 		// TODO Auto-generated method stub
 		Student student = new Student();

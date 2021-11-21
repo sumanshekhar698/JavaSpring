@@ -20,5 +20,5 @@ public class B {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
+
 }
